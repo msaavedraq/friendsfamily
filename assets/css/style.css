@@ -108,7 +108,7 @@ a.links{
 }
 
 .box2{
-   padding-top: 1.5rem;
+   padding-top: 2rem;
 }
 
 @media  (max-width: 830px) and (min-width:480px){
@@ -150,8 +150,8 @@ a.links{
     background-color: #fff;
     padding: 1rem;
     margin: calc(0vh - 0px) auto;
-    height: 90%;
-    max-width: 85%;
+    height: 95%;
+    max-width: 90%;
     text-align: center;
 }
 
