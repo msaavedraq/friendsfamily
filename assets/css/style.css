@@ -267,7 +267,7 @@ a.links{
 }
 @media screen and (max-width:480px){
      .c-content__description{
-        font-size:1rem
+        font-size:1.5rem
     }
 }
 @media screen and (min-width:1140px){
