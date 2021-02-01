@@ -169,6 +169,25 @@ a.links{
     height: auto;
 }
 
+.logo-mobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 830px) {
+  .logo{
+    display: none;
+  }
+  .logo-mobile{
+    display: inline;
+    margin: 0 2rem ;
+  }
+}
+
+.content{
+  margin: 10px auto;
+}
+
 .c-content__header{
     font-family:Caslon224;
     font-weight:bold;
@@ -195,7 +214,7 @@ a.links{
     }
 }
 @media screen and (max-width:480px){
-    .c-popup__content .c-content__header{
+    .c-content__header{
         font-size:1rem
     }
 }
