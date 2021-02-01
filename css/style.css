@@ -175,9 +175,9 @@ a.links{
 
 @media only screen and (max-width: 830px) {
 
-.logo{
-  display: none;
-}
+  .logo{
+    display: none;
+  }
   .logo-mobile {
     display: inline-block;
     padding: 2rem;
