@@ -168,6 +168,10 @@ a.links{
     height: auto;
 }
 
+.logo-mobile{
+  display: none;
+}
+
 .c-content__header{
     font-family:Caslon224;
     font-weight:bold;
