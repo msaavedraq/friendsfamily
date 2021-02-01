@@ -158,7 +158,6 @@ a.links{
 }
 
 .logo{
-  display: inline-block;
     position: absolute;
     top:8px;
     left: 16px;
@@ -169,20 +168,10 @@ a.links{
     height: auto;
 }
 
-.logo-mobile {
+ .box2 .mobile {
   display: none !important;
 }
 
-@media only screen and (max-width: 830px) {
-
-  .logo{
-    display: none;
-  }
-  .logo-mobile {
-    display: inline-block;
-    padding: 2rem;
-  } 
-}
 
 .c-content__header{
     font-family:Caslon224;
