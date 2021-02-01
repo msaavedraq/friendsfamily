@@ -7,7 +7,7 @@ html {
     font-family: BrandonText, sans-serif;
     color: #535353;
     line-height: 1.6;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body{
