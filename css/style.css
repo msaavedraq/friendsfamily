@@ -158,7 +158,7 @@ a.links{
 }
 
 .logo{
-  display: block;
+  display: inline-block;
     position: absolute;
     top:8px;
     left: 16px;
@@ -170,7 +170,7 @@ a.links{
 }
 
 .logo-mobile {
-  display: none;
+  display: none !important;
 }
 
 @media only screen and (max-width: 830px) {
@@ -179,7 +179,7 @@ a.links{
   display: none;
 }
   .logo-mobile {
-    display: block;
+    display: inline-block;
     padding: 2rem;
   } 
 }
