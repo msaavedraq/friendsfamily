@@ -13,6 +13,7 @@ html {
 body{
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 h1,
@@ -205,8 +206,30 @@ a.links{
 }
 
 .content{
-  margin: 10px auto;
+  /* margin: 10px auto;
+  height: 80%;
+  vertical-align: middle;
+  display: inline-block; */
+  display: flex;
+  flex-direction: column;
 }
+.content::before,
+.content::after{
+  content: "";
+  flex: 1;
+}
+.content{
+  height: 70vh;
+  margin:auto;
+}
+
+@media only screen and (max-width: 830px) {
+  .content{
+    height: 55vh;
+    margin:auto;
+  }
+}
+
 
 .c-content__header{
     font-family:Caslon224;
@@ -217,6 +240,8 @@ a.links{
     font-size:2rem;
     font-size:calc(37.18182px + 1.21212vw)
 }
+
+
 @media (max-width:830px){
     .c-content__header{
         font-size:1em;
