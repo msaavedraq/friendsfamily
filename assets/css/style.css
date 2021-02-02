@@ -89,7 +89,7 @@ a.links{
 }
 
 .main .box1{
-    background-image: url(img/img-1.png);
+    background-image: url(./img/img-1.png);
     width: 40%;
     height: 100%;
     background-size: cover;
