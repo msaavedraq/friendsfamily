@@ -2,15 +2,15 @@
 //scoped, but you can still access the password in console if you know the variable name below
 //So, for example, go to CodePen's console and type passwordModule.password
 var passwordModule = {
-  password: "password",
+  password: "qwerty",
   errorCount: 0,
-  container: $(".box2"),
-  inputWrapper: $(".content-box"),
+  container: $(".content-box"),
+  inputWrapper: $(".content"),
   inputBox: $(".ui-password-input"),
   submitButton: $(".ui-submit"),
   errorBox: $(".passwordError"),
-  videoDiv: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9-fFHZuIa40?autoplay=1" frameborder="0" allowfullscreen></iframe>',
-  lockedOutDiv: "<h1>You have been locked out!</h1>" + 
+  url_link: 'https://goopkitchen.olo.com/',
+  lockedOutDiv: "<h2>You have been locked out!</h2>" + 
   "<p>Please try again later</p>",
 
   init: function() {   
@@ -38,9 +38,7 @@ var passwordModule = {
   //password validator funciton
   passwordValidator: function(sentPassword) {
     if(sentPassword === this.password) {
-      this.inputWrapper.hide();
-      this.container.append(this.videoDiv);
-
+      window.location.href = this.url_link;
     } else {
       this.errorHandler(sentPassword);
     }
