@@ -108,9 +108,6 @@ a.links{
    padding: 1.5rem;
 }
 
-/* .box2{
-   padding-top: 2.2rem;
-} */
 
 @media  (max-width: 830px) and (min-width:480px){
 .main  {
@@ -150,15 +147,6 @@ a.links{
    }
   }
   
-/* 
-  .content-box{
-    width:90vw;
-    height: 90vh;
-    border: 10px solid black;
-    margin: auto;
-    background-color: white;
-  } */
-
 .content-box{
     background-color: #fff;
     padding: 1rem;
@@ -363,40 +351,6 @@ a.links{
     font-size: 0.8rem;
 }
 
-/*
-.password{
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 1rem + 2px);
-    padding: .375rem 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #999999;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #CCCCCC;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    font-family: 'BrandonText', sans-serif;
-    margin-bottom: 16px
-}
-*/
-
-/*
-.submit{
-    display: block;
-    width: 100%;
-    padding: .375rem 1rem;
-    height: calc(1.5em + 1rem + 2px);
-    font-size: 1rem;
-    line-height: 1.5;
-    color: white;
-    background-color: #111111;
-    text-transform: uppercase;
-    font-family: 'Brandon', sans-serif;
-    appearance: none;
-
-}
-*/
 
 .ui-password {
   -webkit-appearance: none;
@@ -418,11 +372,6 @@ a.links{
   left: 0;
   z-index: 1;
 }
-/*
-.ui-password:after {
-  z-index: 0;
-}
-*/
 
 .ui-password-input {
   background: none;
@@ -444,39 +393,6 @@ a.links{
 .ui-password-input:focus {
   outline: none;
 }
-
-/*
-[data-state~=idle] .ui-password:before {
-  background-color: var(--color-primary);
-  transform: translateX(-100%);
-}
-*/
-/* [data-state~=idle] .ui-password:focus-within:before {
-  transform: none;
-}
-[data-state~=validating] .ui-password:before {
-  transform-origin: left center;
-  background-color: var(--color-primary);
-  -webkit-animation: password-validating 1s infinite;
-          animation: password-validating 1s infinite;
-}
-[data-state~="idle.error"] .ui-password:before {
-  -webkit-animation: slide-right 0.5s cubic-bezier(0.5, 0, 0.5, 1) both;
-          animation: slide-right 0.5s cubic-bezier(0.5, 0, 0.5, 1) both;
-  background-color: #E2294E;
-}
-[data-state~=success] .ui-password:before {
-  -webkit-animation: slide-right 0.5s cubic-bezier(0.5, 0, 0.5, 1) both;
-          animation: slide-right 0.5s cubic-bezier(0.5, 0, 0.5, 1) both;
-  background-color: var(--color-success);
-}
-
-[data-state]:not([data-state~=idle]) .ui-password-input {
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.5;
-} */
-
 
 .passwordError {
   display: none;

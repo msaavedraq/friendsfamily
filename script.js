@@ -10,8 +10,8 @@ var passwordModule = {
   submitButton: $(".ui-submit"),
   errorBox: $(".passwordError"),
   url_link: 'https://goopkitchen.olo.com/',
-  lockedOutDiv: "<h2>You have been locked out!</h2>" + 
-  "<p>Please try again later</p>",
+  lockedOutDiv: "<h2> Oops, password has been entered incorrectly too many times!" + 
+  "<p>Please refresh the page and try again in 5 minutes.</p>",
 
   init: function() {   
     var self = this;
@@ -60,7 +60,13 @@ var passwordModule = {
       this.errorBox.text("Please enter a password").show();
     } else {
       this.errorBox.text("Incorrect password").show();
-    }
+    } 
+
+    if(sentPassword === "undefined" || sentPassword === "") {
+      this.errorBox.text("").show();
+    } 
+
+
   },
 
   //setCookie, str8 from w3schools (ew, i know)
