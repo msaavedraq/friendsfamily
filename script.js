@@ -61,12 +61,6 @@ var passwordModule = {
     } else {
       this.errorBox.text("Incorrect password").show();
     } 
-
-    if(sentPassword === "undefined" || sentPassword === "") {
-      this.errorBox.text("").show();
-    } 
-
-
   },
 
   //setCookie, str8 from w3schools (ew, i know)
