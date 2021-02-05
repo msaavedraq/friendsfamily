@@ -275,7 +275,7 @@ a.links{
     letter-spacing:normal;
     color:#111111;
     font-size:2rem;
-    font-size:calc(37.18182px + 1.21212vw);
+    font-size:calc(27.18182px + 1.21212vw);
     margin-top: 0;
 }
 
@@ -283,7 +283,7 @@ a.links{
 @media (max-width:830px){
     .c-content__header{
         font-size:1em;
-        font-size: calc(40.81818px - 2.21212vw);
+        font-size: calc(41.81818px - 1.21212vw);
     }
 }
 @media screen and (max-width:830px) and (max-width:480px){
@@ -303,7 +303,7 @@ a.links{
 }
 @media screen and (min-width:1140px){
     .c-content__header{
-        font-size:2.4rem
+        font-size:2.8rem
     }
 }
 .c-content__description{
